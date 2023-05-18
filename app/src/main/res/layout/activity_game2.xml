@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="@drawable/backgroundapp">
+
+
+    <GridLayout
+        android:layout_width="404dp"
+        android:layout_height="404dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Guess"
+        app:layout_constraintVertical_bias="0.231">
+
+        <!--<Button
+            android:id="@+id/b1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15sp"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15sp"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15sp"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15sp"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="15sp"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp"/>
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+            android:id="@+id/b11"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp"/>
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+
+            android:id="@+id/b13"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+
+            android:id="@+id/b14"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+
+            android:id="@+id/b15"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp" />
+
+        <Button
+            android:id="@+id/b16"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="35sp"
+            android:layout_margin="15sp"/>-->
+
+        <Button
+            android:id="@+id/b1"
+            android:textSize="35dp"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b2"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b3"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b4"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b5"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b6"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b7"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b8"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b9"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b10"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:textSize="35dp"
+            android:id="@+id/b11"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/b12"
+            android:textSize="35dp"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textSize="35dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/b14"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:textSize="35dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/b15"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:textSize="35dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/b16"
+            android:textSize="35dp"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_margin="5dp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/Guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Check"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:text="Check"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:text="Reset"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/ClueBtn"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_margin="45dp"
+        android:text="Clue"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="126dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Life1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/yellowheart" />
+
+        <ImageView
+            android:id="@+id/Life2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/yellowheart" />
+
+        <ImageView
+            android:id="@+id/Life3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/yellowheart" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23119015" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4914842" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.87277704" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41997263" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
